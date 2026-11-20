@@ -1,0 +1,12 @@
+# Secrets
+.env
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Generated vector data
+data/
+.DS_Store
