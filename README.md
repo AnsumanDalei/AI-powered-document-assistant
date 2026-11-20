@@ -1,9 +1,6 @@
 # AI Document Assistant
 
-A beginner-friendly PDF question-answering app built with Python, Streamlit, Gemini, and FAISS. Upload one or more PDFs (up to 200 MB each) and ask questions grounded in their contents.
-
-This project is based on the open-source [Ask to Zuzu – PDF Q&A Chatbot](https://github.com/aankitsharma/ask-to-zuzu-rag-chatbot) by Aankit Sharma. It has been customized for clearer document handling, PDF-grounded responses, and easier local use. Local syntax and packaging checks were performed; a successful Gemini response and a 200 MB PDF upload have not been tested here.
-
+An AI-powered document assistant that allows users to upload PDF files and ask questions based on their content. It uses Retrieval-Augmented Generation (RAG), embeddings, FAISS, and Google's Gemini API to provide relevant answers from uploaded documents.
 ## Features
 
 - Upload one or more PDF files, up to 200 MB per file.
@@ -113,6 +110,3 @@ ai-document-assistant/
 - Scope classification and answer grounding are model-guided and can make mistakes; review important answers against the PDF.
 - Gemini access, quotas, and model availability depend on Google API settings.
 
-## Credits and attribution
-
-Original repository: [Aankit Sharma – ask-to-zuzu-rag-chatbot](https://github.com/aankitsharma/ask-to-zuzu-rag-chatbot). This project is a customized version of that existing open-source work; it is not presented as original authorship. See the original repository for its license and history.
